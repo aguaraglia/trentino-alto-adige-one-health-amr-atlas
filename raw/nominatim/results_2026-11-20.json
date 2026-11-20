@@ -1,0 +1,77 @@
+{
+ "ospedale_bolzano": {
+  "query": "Ospedale di Bolzano, Via Lorenz Böhler, Bolzano",
+  "status": 200,
+  "results": [
+   {
+    "place_id": 74117825,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 32024330,
+    "lat": "46.4982983",
+    "lon": "11.3107067",
+    "category": "amenity",
+    "type": "hospital",
+    "place_rank": 30,
+    "importance": 0.18554865524912875,
+    "addresstype": "amenity",
+    "name": "Ospedale Provinciale di Bolzano",
+    "display_name": "Ospedale Provinciale di Bolzano, Via Lorenz Böhler - Lorenz-Böhler-Straße, San Maurizio - Moritzing, Gries-San Quirino - Gries-Quirein, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39100, Italia",
+    "boundingbox": [
+     "46.4965767",
+     "46.5002458",
+     "11.3067795",
+     "11.3147386"
+    ]
+   }
+  ]
+ },
+ "ospedale_bolzano_alt": {
+  "query": "Ospedale San Maurizio Bolzano",
+  "status": 200,
+  "results": [
+   {
+    "place_id": 74141950,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2489200947,
+    "lat": "46.4995142",
+    "lon": "11.3092829",
+    "category": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 6.96673533226065e-05,
+    "addresstype": "highway",
+    "name": "Ospedale - Krankenhaus",
+    "display_name": "Ospedale - Krankenhaus, Via Lorenz Böhler - Lorenz-Böhler-Straße, San Maurizio - Moritzing, Gries-San Quirino - Gries-Quirein, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39100, Italia",
+    "boundingbox": [
+     "46.4994642",
+     "46.4995642",
+     "11.3092329",
+     "11.3093329"
+    ]
+   },
+   {
+    "place_id": 73826981,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 32024330,
+    "lat": "46.4982983",
+    "lon": "11.3107067",
+    "category": "amenity",
+    "type": "hospital",
+    "place_rank": 30,
+    "importance": 0.18554865524912875,
+    "addresstype": "amenity",
+    "name": "Ospedale Provinciale di Bolzano",
+    "display_name": "Ospedale Provinciale di Bolzano, Via della Vigna - Weingartenweg, San Maurizio - Moritzing, Gries-San Quirino - Gries-Quirein, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39100, Italia",
+    "boundingbox": [
+     "46.4965767",
+     "46.5002458",
+     "11.3067795",
+     "11.3147386"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "taa_amr_atlas",
+  "regionCode": "TAA",
+  "regionName": "Trentino-Alto Adige/Südtirol",
+  "title": "Trentino-Alto Adige One Health AMR Atlas",
+  "shortName": "Trentino-Alto Adige One Health",
+  "brandIcon": "public/brand/trentino-alto-adige-region-mark.svg",
+  "language": "it",
+  "publisher": "Codex Vitae ETS",
+  "dataStatusLabel": "Letteratura scientifica aggiornata il 20 novembre 2026 (23 studi: 20 in provincia di Bolzano, 3 in provincia di Trento). Fonti istituzionali: AR-ISS 2024 per provincia (Bolzano copertura 100%, Trento 85,6%; CC BY 4.0) e AIFA Open Data 2024 J01 per provincia (CC BY 4.0). Il rapporto ASUIT 2025 è una scheda senza mappa (CC BY 4.0).",
+  "literaturePlacePhrase": "al Trentino-Alto Adige/Südtirol",
+  "publicScopeSummary": "Confini ISTAT 2026 letti in UTF-8 (282 comuni, 2 province autonome Bolzano/Bozen e Trento, regione 04); AR-ISS 2024 per provincia (CC BY 4.0; copertura 100% a Bolzano e 85,6% a Trento); AIFA Open Data 2024, antibatterici J01 per provincia (CC BY 4.0); rapporto ASUIT 2025 sul consumo territoriale, scheda senza mappa (CC BY 4.0, attribuzione obbligatoria); 1 struttura nominata georiferita con Nominatim (ODbL); letteratura scientifica del 20 novembre 2026 (23 studi: 20 Bolzano, 3 Trento). ASDAA/SABES, l'Agenzia per l'ambiente di Bolzano, il report veterinario ClassyFarm e il cruscotto IZSVe sono esclusi. Il segnaposto indica il luogo dello studio, non una prevalenza. Le aree vuote indicano nessuna evidenza pubblicata.",
+  "map": {
+    "center": [
+      46.38,
+      11.43
+    ],
+    "zoom": 8
+  },
+  "overviewLiteratureLabel": "studi sulla mappa",
+  "provinceOutlines": {
+    "file": "public/geography/atlas_provinces.geojson",
+    "labels": {
+      "Bolzano/Bozen": "Bolzano/Bozen · 20 studi",
+      "Trento": "Trento · 3 studi"
+    }
+  },
+  "catalogs": {
+    "layers": "public/data/layer-catalog.json",
+    "evidence": "public/data/evidence-catalog.json",
+    "literature": "public/data/literature-catalog.json"
+  }
+}

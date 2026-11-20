@@ -1,0 +1,72 @@
+{
+ "schema_version": "1.0",
+ "edition": "taa_amr_atlas",
+ "records": [
+  {
+   "id": "ar_iss_2024_pa_bolzano",
+   "title": "AR-ISS 2024 - PA Bolzano",
+   "publisher": "Istituto Superiore di Sanita",
+   "evidence_type": "human_amr_regional",
+   "geography": "Provincia autonoma di Bolzano/Bozen",
+   "period": "2024",
+   "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+   "data_file": "public/data/ar_iss_2024_pa_bolzano.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Copertura 100,0%, rete provinciale. MRSA 4,9% (7/143), VRE-faecium 30,6% (11/36), CREC 14,0% (60/429), CRKP 0,8% (1/126; 1,6% con il caso comunicato dopo), CRPA 9,8% (4/41), CRAS 0/16. CRAS con meno di 20 isolati; nessun downscaling."
+  },
+  {
+   "id": "ar_iss_2024_pa_trento",
+   "title": "AR-ISS 2024 - PA Trento",
+   "publisher": "Istituto Superiore di Sanita",
+   "evidence_type": "human_amr_regional",
+   "geography": "Provincia autonoma di Trento",
+   "period": "2024",
+   "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+   "data_file": "public/data/ar_iss_2024_pa_trento.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Copertura 85,6%, rete provinciale. MRSA 10,5% (16/152), VRE-faecium 31,9% (15/47), CREC 20,0% (91/454), CRKP 1,0% (1/105), CRPA 8,8% (5/57), CRAS 0/6. CRAS con meno di 20 isolati; nessun downscaling."
+  },
+  {
+   "id": "aifa_opendata_2024_pa_bolzano_j01",
+   "title": "AIFA Open Data 2024 - PA Bolzano, antibatterici J01",
+   "publisher": "Agenzia Italiana del Farmaco",
+   "evidence_type": "human_antimicrobial_use",
+   "geography": "Provincia autonoma di Bolzano/Bozen",
+   "period": "2024",
+   "source_url": "https://www.aifa.gov.it/documents/20142/847578/dati2024_04.12.2025.csv",
+   "data_file": "public/data/aifa_opendata_2024_pa_bolzano_j01.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Convenzionata 306.741 confezioni, 2,71 milioni di euro; acquisti diretti 165.431 confezioni, 1,78 milioni di euro. Consumo, non resistenza."
+  },
+  {
+   "id": "aifa_opendata_2024_pa_trento_j01",
+   "title": "AIFA Open Data 2024 - PA Trento, antibatterici J01",
+   "publisher": "Agenzia Italiana del Farmaco",
+   "evidence_type": "human_antimicrobial_use",
+   "geography": "Provincia autonoma di Trento",
+   "period": "2024",
+   "source_url": "https://www.aifa.gov.it/documents/20142/847578/dati2024_04.12.2025.csv",
+   "data_file": "public/data/aifa_opendata_2024_pa_trento_j01.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Convenzionata 465.720 confezioni, 3,90 milioni di euro; acquisti diretti 178.547 confezioni, 1,39 milioni di euro. Consumo, non resistenza."
+  },
+  {
+   "id": "asuit_consumo_antibatterici_territoriale_2025",
+   "title": "ASUIT - Consumo territoriale di antibatterici per uso sistemico in Trentino, anno 2025",
+   "publisher": "Azienda sanitaria universitaria integrata del Trentino (già APSS)",
+   "evidence_type": "human_antimicrobial_use",
+   "geography": "Provincia autonoma di Trento",
+   "period": "2019-2025",
+   "source_url": "https://www.asuit.tn.it/system/files/content/documento/12830/allegati/62767/report%20antibiotici%202025.pdf",
+   "data_file": "public/data/asuit_consumo_antibatterici_2025.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "attribution": "Fonte: sito dell'Azienda sanitaria universitaria integrata del Trentino - Provincia autonoma di Trento",
+   "note": "Scheda provinciale senza mappa: 13,6 DDD/1.000 abitanti/die nel 2025 (11,4 a carico del SSP, 2,2 acquisto privato), -15,4% sul 2024. Consumo territoriale, non resistenza."
+  }
+ ]
+}

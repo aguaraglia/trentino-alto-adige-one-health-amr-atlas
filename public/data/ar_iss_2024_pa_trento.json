@@ -1,0 +1,79 @@
+{
+ "schema_version": "1.0",
+ "edition": "taa_amr_atlas",
+ "source_id": "ar_iss_2024_pa_trento",
+ "period": 2024,
+ "geography": "Provincia autonoma di Trento",
+ "scope": "isolati da sangue e liquor; sorveglianza AR-ISS",
+ "coverage": {
+  "value_percent": 85.6,
+  "denominator": "giornate di degenza per ricoveri ordinari per acuti; SDO dimessi 2023",
+  "limitations": "non corregge per gravità; considera i laboratori che hanno inviato emocolture e/o liquor; la PA di Trento partecipa con una propria rete (Osp. S. Chiara, Trento; Osp. S. Maria del Carmine, Rovereto); per CRAS gli isolati sono meno di 20"
+ },
+ "indicators": [
+  {
+   "code": "MRSA",
+   "pathogen": "Staphylococcus aureus",
+   "resistance": "meticillina",
+   "isolates": 152,
+   "resistant": 16,
+   "percent": 10.5,
+   "ci95": "6.1-16.5"
+  },
+  {
+   "code": "VRE-faecium",
+   "pathogen": "Enterococcus faecium",
+   "resistance": "vancomicina",
+   "isolates": 47,
+   "resistant": 15,
+   "percent": 31.9,
+   "ci95": "19.1-47.1"
+  },
+  {
+   "code": "CREC",
+   "pathogen": "Escherichia coli",
+   "resistance": "cefalosporine di terza generazione",
+   "isolates": 454,
+   "resistant": 91,
+   "percent": 20.0,
+   "ci95": "16.5-24.0"
+  },
+  {
+   "code": "CRKP",
+   "pathogen": "Klebsiella pneumoniae",
+   "resistance": "carbapenemi",
+   "isolates": 105,
+   "resistant": 1,
+   "percent": 1.0,
+   "ci95": "0.0-5.2"
+  },
+  {
+   "code": "CRPA",
+   "pathogen": "Pseudomonas aeruginosa",
+   "resistance": "carbapenemi",
+   "isolates": 57,
+   "resistant": 5,
+   "percent": 8.8,
+   "ci95": "2.9-19.3"
+  },
+  {
+   "code": "CRAS",
+   "pathogen": "Acinetobacter species",
+   "resistance": "carbapenemi",
+   "isolates": 6,
+   "resistant": 0,
+   "percent": 0.0,
+   "ci95": "0.0-45.9",
+   "note": "meno di 20 isolati"
+  }
+ ],
+ "license": "CC BY 4.0 (Note legali ISS, valide anche per EpiCentro: https://www.iss.it/contatti ; https://www.epicentro.iss.it/chi-siamo/disclaimer)",
+ "source": {
+  "title": "AR-ISS: sorveglianza nazionale dell Antibiotico-Resistenza. Dati 2024",
+  "report": "RIS-5/2025",
+  "table": "Tabella 1 (copertura) e Appendice A, Regione PA Trento (p. 51)",
+  "url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+  "acquired_at": "2026-11-19",
+  "sha256": "50174DC846E19C6EAD2EA4D55982FC098487251A5EDAB8D484D6101B31482F0F"
+ }
+}

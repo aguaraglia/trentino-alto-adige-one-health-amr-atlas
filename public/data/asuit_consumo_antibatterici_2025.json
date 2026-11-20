@@ -1,0 +1,68 @@
+{
+ "schema_version": "1.0",
+ "edition": "taa_amr_atlas",
+ "source_id": "asuit_consumo_antibatterici_territoriale_2025",
+ "period": 2025,
+ "geography": "Provincia autonoma di Trento",
+ "indicator": {
+  "label": "Consumo territoriale di antibatterici per uso sistemico (ATC J01), DDD/1.000 abitanti/die",
+  "values": [
+   {
+    "year": 2019,
+    "ssn": 13.1,
+    "acquisto_privato": 2.4,
+    "totale": 15.5
+   },
+   {
+    "year": 2020,
+    "ssn": 10.2,
+    "acquisto_privato": 1.9,
+    "totale": 12.1
+   },
+   {
+    "year": 2021,
+    "ssn": 9.4,
+    "acquisto_privato": 2.4,
+    "totale": 11.8
+   },
+   {
+    "year": 2022,
+    "ssn": 12.2,
+    "acquisto_privato": 3.1,
+    "totale": 15.2
+   },
+   {
+    "year": 2023,
+    "ssn": 13.2,
+    "acquisto_privato": 2.7,
+    "totale": 15.9
+   },
+   {
+    "year": 2024,
+    "ssn": 13.5,
+    "acquisto_privato": 2.6,
+    "totale": 16.1
+   },
+   {
+    "year": 2025,
+    "ssn": 11.4,
+    "acquisto_privato": 2.2,
+    "totale": 13.6
+   }
+  ],
+  "note": "Tabella 1 del rapporto; acquisto privato di fonte IQVIA come indicato nel rapporto; quota SSP 84% del consumo territoriale 2025."
+ },
+ "limitations": "Consumo territoriale, non ospedaliero e non resistenza. Il rapporto avverte che i dati trentini nei rapporti nazionali usano la popolazione pesata e possono differire.",
+ "license": "CC BY 4.0. Note legali ASUIT (https://www.asuit.tn.it/note-legali): «Contenuti testuali, multimediali e dati aggregati su questo sito sono tutelati dalla licenza Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)».",
+ "attribution": "Fonte: sito dell'Azienda sanitaria universitaria integrata del Trentino - Provincia autonoma di Trento",
+ "source": {
+  "title": "Rapporto sul consumo territoriale di antibatterici per uso sistemico in Trentino - anno 2025",
+  "author": "Centro provinciale di farmacovigilanza, farmacoepidemiologia ed informazione sul farmaco, Servizio politiche del farmaco e assistenza farmaceutica, 25 marzo 2026",
+  "url": "https://www.asuit.tn.it/system/files/content/documento/12830/allegati/62767/report%20antibiotici%202025.pdf",
+  "landing": "https://www.asuit.tn.it/documenti/rapporto-sul-consumo-territoriale-di-antibatterici-uso-sistemico-trentino-anno-2025",
+  "table": "Tabella 1, p. 1",
+  "acquired_at": "2026-11-20",
+  "sha256": "F831B24220BC2BCC1883296A8AF1EC59E04A311E66784065E726D3448FFEAF45"
+ },
+ "mapped": false
+}

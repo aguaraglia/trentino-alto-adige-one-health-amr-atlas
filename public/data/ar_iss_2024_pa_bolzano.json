@@ -1,0 +1,79 @@
+{
+ "schema_version": "1.0",
+ "edition": "taa_amr_atlas",
+ "source_id": "ar_iss_2024_pa_bolzano",
+ "period": 2024,
+ "geography": "Provincia autonoma di Bolzano/Bozen",
+ "scope": "isolati da sangue e liquor; sorveglianza AR-ISS",
+ "coverage": {
+  "value_percent": 100.0,
+  "denominator": "giornate di degenza per ricoveri ordinari per acuti; SDO dimessi 2023",
+  "limitations": "non corregge per gravità; considera i laboratori che hanno inviato emocolture e/o liquor; la PA di Bolzano partecipa con una propria rete (Laboratorio aziendale di microbiologia e virologia, Azienda Sanitaria dell'Alto Adige, Bolzano); per CRAS gli isolati sono meno di 20; nota del report: un ulteriore CRKP 2024 comunicato dopo la chiusura porterebbe CRKP a 2/127 (1,6%), non conteggiato nella tabella"
+ },
+ "indicators": [
+  {
+   "code": "MRSA",
+   "pathogen": "Staphylococcus aureus",
+   "resistance": "meticillina",
+   "isolates": 143,
+   "resistant": 7,
+   "percent": 4.9,
+   "ci95": "2.0-9.8"
+  },
+  {
+   "code": "VRE-faecium",
+   "pathogen": "Enterococcus faecium",
+   "resistance": "vancomicina",
+   "isolates": 36,
+   "resistant": 11,
+   "percent": 30.6,
+   "ci95": "16.4-48.1"
+  },
+  {
+   "code": "CREC",
+   "pathogen": "Escherichia coli",
+   "resistance": "cefalosporine di terza generazione",
+   "isolates": 429,
+   "resistant": 60,
+   "percent": 14.0,
+   "ci95": "10.9-17.6"
+  },
+  {
+   "code": "CRKP",
+   "pathogen": "Klebsiella pneumoniae",
+   "resistance": "carbapenemi",
+   "isolates": 126,
+   "resistant": 1,
+   "percent": 0.8,
+   "ci95": "0.0-4.3"
+  },
+  {
+   "code": "CRPA",
+   "pathogen": "Pseudomonas aeruginosa",
+   "resistance": "carbapenemi",
+   "isolates": 41,
+   "resistant": 4,
+   "percent": 9.8,
+   "ci95": "2.7-23.1"
+  },
+  {
+   "code": "CRAS",
+   "pathogen": "Acinetobacter species",
+   "resistance": "carbapenemi",
+   "isolates": 16,
+   "resistant": 0,
+   "percent": 0.0,
+   "ci95": "0.0-20.6",
+   "note": "meno di 20 isolati"
+  }
+ ],
+ "license": "CC BY 4.0 (Note legali ISS, valide anche per EpiCentro: https://www.iss.it/contatti ; https://www.epicentro.iss.it/chi-siamo/disclaimer)",
+ "source": {
+  "title": "AR-ISS: sorveglianza nazionale dell Antibiotico-Resistenza. Dati 2024",
+  "report": "RIS-5/2025",
+  "table": "Tabella 1 (copertura) e Appendice A, Regione PA Bolzano (p. 50)",
+  "url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+  "acquired_at": "2026-11-19",
+  "sha256": "50174DC846E19C6EAD2EA4D55982FC098487251A5EDAB8D484D6101B31482F0F"
+ }
+}
